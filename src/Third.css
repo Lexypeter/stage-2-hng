@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d1b2a;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.ticket-container {
+  width: 300px;
+  background: #112d4e;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.event-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #c0f0ff;
+  margin-bottom: 5px;
+}
+
+.event-location,
+.event-date {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin: 2px 0;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 12%;
+  border: 2px solid #c0f0ff;
+  object-fit: cover;
+}
+
+.ticket-info {
+  background: #d8f1f80a;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.info-row label {
+  color: #88cbd8;
+  margin-right: 5px;
+}
+
+.info-row p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.special-request p {
+  font-style: italic;
+  color: #c0f0ff;
+}
+
+.barcode-section {
+  background: #001f2a;
+  border-top: 1px dashed #58b2c5;
+  border-bottom: 1px dashed #58b2c5;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.barcode-section canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.barcode-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+@media (min-width: 450px) {
+  .ticket-container {
+    width: 400px;
+  }
+}
+@media (min-width: 850px) {
+  .ticket-container {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .ticket-container {
+    width: 600px;
+  }
+}

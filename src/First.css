@@ -1,0 +1,121 @@
+body {
+  background-color: #0a1c22;
+  font-family: Arial, sans-serif;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #07171c;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.my-tickets {
+  background-color: white;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  background-color: #0d242d;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.progress-bar {
+  margin-bottom: 20px;
+}
+
+.progress-line {
+  width: 100%;
+  height: 5px;
+  background-color: #1b3b47;
+  border-radius: 3px;
+}
+
+.progress-fill {
+  width: 33%;
+  height: 100%;
+  background-color: #30a7c3;
+  border-radius: 3px;
+}
+
+.event-details {
+  text-align: center;
+}
+
+.ticket-selection {
+  margin-top: 20px;
+}
+
+.ticket-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticket {
+  background-color: #112b33;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  text-align: center;
+}
+
+.ticket:hover,
+.ticket.selected {
+  border-color: #30a7c3;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel,
+.next {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: transparent;
+  color: #d4e9f3;
+}
+
+.next {
+  background-color: #30a7c3;
+  color: #000;
+}
+
+.next:disabled {
+  background-color: #1b3b47;
+  cursor: not-allowed;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

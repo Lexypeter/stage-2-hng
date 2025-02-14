@@ -1,0 +1,52 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.vscode/
+package-lock.json
+
+
+.env
+.env.local
+.env.development
+.env.production
+node_modules/
+.cache/
+.vite/
+.vscode/
+.DS_Store  # (MacOS system file)
+Thumbs.db   # (Windows system file)
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.production
+.env.development
